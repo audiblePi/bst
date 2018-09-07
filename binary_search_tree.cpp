@@ -85,11 +85,8 @@ void Tree::insert(int d){
     // If Tree is empty, make the newNode the root
     if(isEmpty()){
         root = newNode;
-        cout<<" new root "<<endl;
     }
     else{
-        cout<<"add child"<<endl;
-
         Node* currentNode;
         currentNode = root;
 
